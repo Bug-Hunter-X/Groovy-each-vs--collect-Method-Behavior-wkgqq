@@ -1,0 +1,3 @@
+# Groovy `each` vs. `collect`
+
+This example demonstrates the subtle difference in behavior between the `each` and `collect` methods when working with lists in Groovy. The `each` method iterates through a collection and performs an operation, but it doesn't modify the original collection. In contrast, the `collect` method creates a new list containing the results of applying a closure to each element of the original list.
